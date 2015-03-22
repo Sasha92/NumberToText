@@ -29,17 +29,3 @@ class NumberToText
         return $converter->convert($number);
     }
 }
-
-//function __autoload($class)
-//{
-//    require_once "NumberToText.php";
-//}
-//
-//$number = new NumberToText();
-//$number->addConverter(new ConverterEng());
-//$number->addConverter(new ConverterRus());
-//$number->addConverter(new ConverterUkr());
-//$number->convert(345678059,'eng');
-//$number->convert(345678059,'rus');
-//$number->convert(345678059,'ukr');
-
